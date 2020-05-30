@@ -1,0 +1,26 @@
+.instance {
+  margin: 2rem;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__button {
+    min-width: 120px;
+  }
+
+  &__button--container {
+    height: 4rem;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__content {
+    max-width: 500px !important;
+  }
+
+  &__label {
+    margin: 6px !important;
+  }
+}
